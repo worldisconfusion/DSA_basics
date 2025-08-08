@@ -162,7 +162,8 @@ int main()
 
   // ATLEAST DEFINE COULMN SIZE FOR 2D ARRAY
   // WHY?
-  // for converting 2D array to 1D array we need the formula (number_of_columns*outer_loopingg_variable)+inner_looping_variable
+  // for converting 2D array to 1D array we need the formula (number_of_columns*outer_loopingg_variable)+inner_looping_variable  for zero based indexing
+  //for 1based indexing,converting 2D array to 1D array we need the formula, 1D_index = (number_of_columns * (row_index - 1)) + (column_index - 1)
 
   printArray(arr, 3, 4);
   cout << endl;

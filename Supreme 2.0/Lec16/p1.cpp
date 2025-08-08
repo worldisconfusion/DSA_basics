@@ -1,5 +1,5 @@
 //Binary Search
-//Array Mustr Be Sorted
+//Array Must Be Sorted
 #include <bits/stdc++.h>
 using namespace std;
 
